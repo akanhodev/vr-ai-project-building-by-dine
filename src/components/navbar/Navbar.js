@@ -1,0 +1,24 @@
+import React from "react";
+import "./Navbar.css";
+import { RiMenu3line, RicloseLine } from "react-icons/ri";
+
+const Navbar = () => {
+  return (
+    <div className="gpt3__navbar">
+      <div className="gpt3__navbar-links">
+          <div className="gpt3__navbar-links_logo">
+              <img src='./assets/logo.svg' alt="logo" />
+          </div>
+          <div className="gpt3__navbar-links_container">
+              <p><a href="#home">Home</a></p>
+              <p><a href="#wgpt3">What is GPT?</a></p>
+              <p><a href="#possibility">Open AI</a></p>
+              <p><a href="#features">Case Studies</a></p>
+              <p><a href="#blog">Library</a></p>
+          </div>
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;
