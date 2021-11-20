@@ -114,8 +114,14 @@
   .gpt3__navbar-menu {
     display: flex;
   }
-  .gpt3__navbar-menu_container-links-sign {
+  /* .gpt3__navbar-menu_container-links-sign {
     display: block;
+  }
+  .gpt3__navbar-sign {
+    display: none;
+  } */
+  .gpt3__navbar-menu_container-links {
+    color: #fff;
   }
 }
 
@@ -125,6 +131,12 @@
   }
   .gpt3__navbar-menu_container-links-sign {
     display: block;
+  }
+  .gpt3__navbar-sign {
+    display: none;
+  }
+  .gpt3__navbar-menu_container-links {
+    color: #fff;
   }
 }
 
@@ -142,5 +154,8 @@
   }
   .gpt3__navbar-menu_container-links-sign {
     display: block;
+  }
+  .gpt3__navbar-menu_container-links {
+    color: #fff;
   }
 }
