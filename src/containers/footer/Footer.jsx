@@ -1,9 +1,10 @@
 import React from 'react'
+import Features from '../../components/features/Features'
 import './Footer.css'
 function Footer() {
     return (
         <div>
-            Footer
+            {/* <Features title="" text="" /> */}
         </div>
     )
 }
