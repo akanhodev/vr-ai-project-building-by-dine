@@ -102,6 +102,16 @@
   flex-direction: row; */
   margin-top: 2rem;
 }
+@media screen and (max-width: 380px) {
+  .gpt3__whatgpt3-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0rem;
+  }
+  .gpt3__whatgpt3-heading h1 {
+    font-size: 18px;
+  }
+}
 
 @media screen and (max-width: 850px) {
   .gpt3__whatgpt3-heading {
