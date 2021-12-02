@@ -29,7 +29,7 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          <img src="./assets/logo.svg" alt="logo" />
+          <img src="logo.svg" alt="logo" />
         </div>
         <div className="gpt3__navbar-links_container">
           <Menu />
