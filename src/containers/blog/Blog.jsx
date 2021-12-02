@@ -4,7 +4,7 @@ import Article from "../../components/articles/Article";
 import { blog01, blog02, blog03, blog04, blog05 } from "./imports";
 function Blog() {
 
-  const largeData = useState(true) ;
+  // const largeData = useState(true) ;
   return (
     <div className="gpt3__blog section__padding" id="blog">
       <div className="gpt3__blog-heading">

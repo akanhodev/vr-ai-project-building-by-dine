@@ -34,3 +34,33 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
 }
+
+@media screen and (max-width: 990px) {
+  .gpt3__blog-container {
+    flex-direction: column-reverse;
+  }
+  .gpt3__blog-container_groupA {
+    margin-bottom: 3rem;
+  }
+  .gpt3__blog-heading h1 {
+    font-size: 40px;
+  }
+  .gpt3__blog-container_groupA {
+    margin-top: 3rem;
+  }
+  .gpt3__blog-container .gpt3__blog-container_groupA {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  /* .gpt3__blog-container {
+    flex-direction: column;
+  }
+  .gpt3__blog-container_groupA {
+    margin-bottom: 3rem;
+  } */
+  .gpt3__blog-container_groupB {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
