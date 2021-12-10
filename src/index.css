@@ -26,3 +26,17 @@ code {
   --color-text: #81afdd;
   --color-subtext: #ff8a71;
 }
+
+select__menu-list::-webkit-scrollbar {
+  width: 4px;
+  height: 0px;
+}
+select__menu-list::-webkit-scrollbar-track {
+  background: var(--gradient-text);
+}
+select__menu-list::-webkit-scrollbar-thumb {
+  background: var(--gradient-text);
+}
+select__menu-list::-webkit-scrollbar-thumb:hover {
+  background: var(--gradient-text);
+}

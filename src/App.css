@@ -70,6 +70,19 @@ a {
     both;
   animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
+select__menu-list::-webkit-scrollbar {
+  width: 4px;
+  height: 0px;
+}
+select__menu-list::-webkit-scrollbar-track {
+  background: var(--gradient-text);
+}
+select__menu-list::-webkit-scrollbar-thumb {
+  background: var(--gradient-text);
+}
+select__menu-list::-webkit-scrollbar-thumb:hover {
+  background: var(--gradient-text);
+}
 
 @-webkit-keyframes scale-up-center {
   0% {

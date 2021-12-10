@@ -10,6 +10,7 @@ import WhatGPT3 from "./containers/whatGPT3/WhatGPT3";
 import Possibility from "./containers/possibility/Possibility";
 import Footer from "./containers/footer/Footer";
 import Featuress from "./components/Featuress/Featuress";
+import GotoTop from "./components/goToTop/gotoTop";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <Cta />
       <Blog />
       <Footer />
+      <GotoTop />
     </div>
   );
 }
